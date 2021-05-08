@@ -1,5 +1,10 @@
 .home{
     background-color: darkolivegreen;
-    color: darkorange;
-    margin-top: 10rem;
+    color: white;
+    margin-top: 8rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
