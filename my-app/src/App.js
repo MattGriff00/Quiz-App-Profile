@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 export default function App() {
 	const questions = [
 		{
@@ -56,7 +57,7 @@ export default function App() {
 			setShowScore(true);
 		}
 	};
-	return (
+	return (	
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>
@@ -77,6 +78,6 @@ export default function App() {
 					</div>
 				</>
 			)}
-		</div>
+		</div>						
 	);
 }
